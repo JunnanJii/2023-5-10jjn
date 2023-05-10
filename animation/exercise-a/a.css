@@ -1,6 +1,9 @@
 a.aa {
     font-family: FavoritHeavyC;
     color: black;
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
 a.aa:hover {
     color:red ;
@@ -143,3 +146,44 @@ a.aa:hover {
     bottom: 10px;
     left: 1300px;
   }
+  
+  .element {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    animation: 
+      pulse 3s ease infinite alternate, 
+      nudge 5s linear infinite alternate;
+    border-radius: 100%;
+    left: 250px;
+  }
+  
+  @keyframes pulse {
+    0%, 100% {
+      background-color: red;
+    }
+    50% {
+      background-color: orange;
+    }
+  }
+  
+  @keyframes nudge {
+    0%, 100% {
+      transform: translate(50, 0);
+    }
+    
+    40% {
+      transform: translate(350px, 0);
+    }
+    
+    80% {
+      transform: translate(-250px, 0);
+    }
+    100% {
+        transform: translate(50px, 0);
+    }
+  }
+  
+  
+

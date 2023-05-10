@@ -1,7 +1,224 @@
 a.aa {
     font-family: FavoritHeavyC;
     color: black;
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
 a.aa:hover {
     color:red ;
 }
+#grass1 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid rgb(34, 251, 34);
+    bottom: 10px;
+  }
+  #grass2 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid rgb(34, 251, 34);
+    bottom: 10px;
+    left: 100px;
+  }
+  #grass3 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid rgb(34, 251, 34);
+    bottom: 10px;
+    left: 200px;
+  }
+  #grass4 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid rgb(34, 251, 34);
+    bottom: 10px;
+    left: 300px;
+  }
+  #grass5 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid rgb(34, 251, 34);
+    bottom: 10px;
+    left: 400px;
+  }
+  #grass6 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid rgb(34, 251, 34);
+    bottom: 10px;
+    left: 500px;
+  }
+  #grass7 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid rgb(34, 251, 34);
+    bottom: 10px;
+    left: 600px;
+  }
+  #grass8 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid rgb(34, 251, 34);
+    bottom: 10px;
+    left: 700px;
+  }
+  #grass9 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid rgb(34, 251, 34);
+    bottom: 10px;
+    left: 800px;
+  }
+  #grass10 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid rgb(34, 251, 34);
+    bottom: 10px;
+    left: 900px;
+  }
+  #grass11 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid rgb(34, 251, 34);
+    bottom: 10px;
+    left: 1000px;
+  }
+  #grass12 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid rgb(34, 251, 34);
+    bottom: 10px;
+    left: 1100px;
+  }
+  #grass13 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid rgb(34, 251, 34);
+    bottom: 10px;
+    left: 1200px;
+  } #grass14 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid rgb(34, 251, 34);
+    bottom: 10px;
+    left: 1300px;
+  }
+  
+  .element {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    animation: 
+      pulse 3s ease infinite alternate, 
+      nudge 5s linear infinite alternate;
+    border-radius: 100%;
+    left: 250px;
+  }
+  
+  @keyframes pulse {
+    0%, 100% {
+      background-color: rgb(255, 0, 0);
+    }
+    50% {
+      /* background-color: rgb(255, 0, 93); */
+    }
+  }
+  
+  @keyframes nudge {
+    0%, 100% {
+      transform: translate(50, 0);
+    }
+    
+    30% {
+      transform: translate(0, 350px);
+    }
+    
+    60% {
+      transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(0, 350px);
+    }
+  }
+  .element1 {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 179, 0);
+    animation: 
+      pulse 3s ease infinite alternate, 
+      nudge 5s linear infinite alternate;
+    border-radius: 100%;
+    left: 650px;
+    bottom: 380px;
+  }
+  
+  @keyframes pulse {
+    0%, 100% {
+      background-color: rgb(255, 0, 0);
+    }
+    50% {
+      /* background-color: rgb(255, 0, 93); */
+    }
+  }
+  
+  @keyframes nudge {
+    0%, 100% {
+      transform: translate(0, 0);
+    }
+    
+    30% {
+      transform: translate(0, 350px);
+    }
+    
+    60% {
+      transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(0, 350px);
+    }
+  }
