@@ -1,0 +1,7 @@
+a.aa {
+    font-family: FavoritHeavyC;
+    color: black;
+}
+a.aa:hover {
+    color:red ;
+}

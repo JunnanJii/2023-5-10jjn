@@ -12,6 +12,9 @@ p {
     font-weight: bold;
 
   }
+  h6 {
+    font-size: 24pt;
+  }
   h1 {
     /* color: white; */
     font-family: couture;

@@ -1,0 +1,29 @@
+h1.aa {
+    font-family: FavoritExtraBoldC;
+    position: absolute;
+    top: 50px;
+    height: 60px;
+    left: 15px;
+    /* box-shadow: 2px 4px 10px red; */
+    box-shadow: 0px 0px 15px 15px red;
+    font-size: 30pt;
+}
+h1.bb {
+    position: absolute;
+    top: 150px;
+}
+a.aa {
+    font-family: FavoritHeavyC;
+    color: black;
+}
+a.aa:hover {
+    color:red ;
+}
+a.bb {
+    font-family: FavoritHeavyC;
+    color: black;
+}
+a.bb:hover {
+    color: blue;
+    background-color: aqua;
+}

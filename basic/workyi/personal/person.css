@@ -12,12 +12,18 @@ p {
     font-weight: bold;
 
   }
+  h6 {
+    font-size: 24pt;
+  }
   h1 {
     /* color: white; */
     font-family: couture;
-    font-size: 1em;
+    font-size: 0.8em;
     font-style: italic;
     color: blue; 
+  }
+  h5 {
+    font-size: 26pt;
   }
 h2 {
     /* border-bottom-style: solid;

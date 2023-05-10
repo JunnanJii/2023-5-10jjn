@@ -1,0 +1,17 @@
+
+ 
+  #vase {
+    width: 100px;
+    height: 300px;
+    position: absolute;
+    top: 20px;
+    left: 400px;
+    color: rgb(89, 221, 77);
+  }
+  a.aa {
+    font-family: FavoritHeavyC;
+    color: black;
+}
+a.aa:hover {
+    color:red ;
+}
