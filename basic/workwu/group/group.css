@@ -1,0 +1,48 @@
+body {
+    /* background-color: rgb(255, 0, 140); */
+    width: 100%;
+    font-size: 60pt;
+}
+p {
+    /* color: white; */
+    width: 80%;
+    border: 1px solid black;
+    /* background-color: white; */
+    font-size: 0.2em;
+    font-weight: bold;
+
+  }
+  h1 {
+    /* color: white; */
+    font-family: couture;
+    font-size: 1em;
+    font-style: italic;
+    color: black; 
+  }
+h2 {
+    /* border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-right-radius: 24pt;
+    border-bottom-left-radius: 24pt; */
+    font-size: 0.4em;
+    font-family: couture;
+    color: black;
+    /* color: white; */
+}
+h3 {
+    /* border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-right-radius: 24pt;
+    border-bottom-left-radius: 24pt; */
+    font-size: 0.4em;
+    font-family: couture;
+    color: black;
+    /* color: white; */
+}
+  a {
+    color: inherit;
+  }
+ 
+p:hover {
+    color: rgb(106, 255, 0);
+}
