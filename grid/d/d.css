@@ -8,3 +8,16 @@ a.aa {
 a.aa:hover {
     color:red ;
 }
+.drop {
+    filter: drop-shadow(0 0 20px rgb(255, 225, 1));
+}
+
+img {
+    margin: 50px;
+}
+
+user agent stylesheet
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}

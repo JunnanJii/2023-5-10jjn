@@ -8,3 +8,118 @@ a.aa {
 a.aa:hover {
     color:red ;
 }
+.container {
+    position: absolute;
+    left: 10%;
+    top: 100px;
+    padding: 0;
+    margin: 0;
+    width: 80%;
+    height: 60%;
+    margin: 50px auto;
+    /* border: 1px solid black; */
+    /* background: beige; */
+    background-color: white;
+    display: grid;
+    grid-template-columns: 20% 70% 10%; 
+    grid-template-columns: repeat(3, 1fr);
+    /* or: */
+     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+   
+  }
+  div {
+    display: block;
+  }
+  
+  .box0 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color:rgb(240, 236, 228);
+    border: 2px solid black;
+    font-size: 30px;
+    font-style: italic;
+}
+.box3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color:rgb(240, 236, 228);
+    border: 2px solid black;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.box4 {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color:rgb(240, 236, 228);
+    border: 2px solid black;
+    font-size: 30px;
+    font-style: italic;
+}
+.box2 {
+     
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    /* background-color:rgb(224, 26, 26); */
+    /* border: 1px solid black; */
+    font-size: 30px;
+    font-style: italic;
+}
+.item {
+    /* background: beige; */
+    /* border: 1px inset black; */
+    padding: 10px;
+    font-size: 30px;
+    font-style: italic;
+    line-height: 1;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    /* border-top: 50px solid transparent; */
+    border-bottom: 100px solid rgb(184, 122, 64);
+}
+/* .box1 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color:beige;
+    border: 1px solid black;
+    font-size: 30px;
+    font-style: italic;
+} */
+
+#oval {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    background: rgb(134, 207, 255);
+    border-radius: 100px / 50px;
+    top: 50px;
+    right: 100px;
+  }
+  #oval1 {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background: rgb(134, 207, 255);
+    border-radius: 100px / 50px;
+    top: 180px;
+    right: 200px;
+  }
+  #oval2 {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background: rgb(134, 207, 255);
+    border-radius: 100px / 50px;
+    top: 180px;
+   left: 200px;
+  }
