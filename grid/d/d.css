@@ -3,7 +3,7 @@ a.aa {
     color: black;
     position: absolute;
     top: 10px;
-    left: 10px;
+    left: 20px;
 }
 a.aa:hover {
     color:red ;
@@ -14,10 +14,55 @@ a.aa:hover {
 
 img {
     margin: 50px;
+    z-index: 2;
 }
 
-user agent stylesheet
 img {
     overflow-clip-margin: content-box;
     overflow: clip;
+    z-index: 2;
+}
+.container {
+    position: absolute;
+    left: 20px;
+    top: 0px;
+    padding: 0;
+    margin: 0;
+    width: 110%;
+    height: 93%;
+    margin: 50px auto;
+    /* border: 1px solid black; */
+    /* background: beige; */
+    background-color: white;
+    display: grid;
+    grid-template-columns: 20% 70% 10%; 
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* or: */
+     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+     grid-template-rows: 1fr 1fr 1fr 1fr 1fr  ;
+     z-index: -1;
+  }
+  div {
+    display: block;
+  }
+  
+  .box0 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color:rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 30px;
+    font-style: italic;
+}
+.box3 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    background-color:rgb(255, 255, 255);
+    border: 1px solid black;
+    font-size: 30px;
+    font-style: italic;
 }
