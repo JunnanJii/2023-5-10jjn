@@ -1,0 +1,84 @@
+a {
+    color: black;
+}
+h1 {
+    position: absolute;
+    color: inherit;
+    font-size: 30pt;
+}
+a.aa {
+    font-family: FavoritHeavyC;
+    color: black;
+}
+a.aa:hover {
+    color:red ;
+}
+h1:hover {
+    background-color:aqua;
+}
+h1.cc {
+    top: 20px;
+    font-family: FavoritExtraBoldC;
+    position: absolute;
+    height: 34px;
+    left: 44.5%;
+    /* box-shadow: 2px 4px 10px red; */
+    box-shadow: 0px 0px 15px 15px red;
+    border: 0px;
+    color: black;
+}
+h1.aa {
+    top: 20%;
+    font-family: FavoritExtraBoldC;
+    position: absolute;
+    height: 34px;
+    left: 43%;
+    /* box-shadow: 2px 4px 10px red; */
+    box-shadow: 0px 0px 15px 15px red;
+    border: 0px;
+    color: black;
+}
+h1.bb {
+    top:35%;
+    font-family: FavoritExtraBoldC;
+    position: absolute;
+    height: 34px;
+    left: 43%;
+    /* box-shadow: 2px 4px 10px red; */
+    box-shadow: 0px 0px 15px 15px red;
+    border: 0px;
+    color: black;
+}
+h1.dd {
+    top:50%;
+    font-family: FavoritExtraBoldC;
+    position: absolute;
+    height: 34px;
+    left: 43%;
+    /* box-shadow: 2px 4px 10px red; */
+    box-shadow: 0px 0px 15px 15px red;
+    border: 0px;
+    color: black;
+}
+h1.ee {
+    top:65%;
+    font-family: FavoritExtraBoldC;
+    position: absolute;
+    height: 34px;
+    left: 43%;
+    /* box-shadow: 2px 4px 10px red; */
+    box-shadow: 0px 0px 15px 15px red;
+    border: 0px;
+    color: black;
+}
+h1.ff {
+    top:80%;
+    font-family: FavoritExtraBoldC;
+    position: absolute;
+    height: 34px;
+    left: 43%;
+    /* box-shadow: 2px 4px 10px red; */
+    box-shadow: 0px 0px 15px 15px red;
+    border: 0px;
+    color: black;
+}

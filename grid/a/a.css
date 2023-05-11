@@ -1,0 +1,81 @@
+a.aa {
+    font-family: FavoritHeavyC;
+    color: black;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+a.aa:hover {
+    color:red ;
+}
+.container {
+    position: absolute;
+    left: 25%;
+    top: 100px;
+    padding: 0;
+    margin: 0;
+    width: 600px;
+    height: 450px;
+    margin: 50px auto;
+    /* border: 1px solid black; */
+    /* background: beige; */
+    background-color: white;
+    display: grid;
+    grid-template-columns: 20% 70% 10%; 
+    grid-template-columns: repeat(3, 1fr);
+    /* or: */
+     grid-template-columns: 1fr 1fr 1fr;
+   
+  }
+  div {
+    display: block;
+  }
+  
+  .box0 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color:rgb(132, 224, 26);
+    /* border: 1px solid black; */
+    font-size: 30px;
+    font-style: italic;
+}
+.box1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color:rgb(26, 102, 224);
+    /* border: 1px solid black; */
+    font-size: 30px;
+    font-style: italic;
+}
+.box2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color:rgb(224, 26, 26);
+    /* border: 1px solid black; */
+    font-size: 30px;
+    font-style: italic;
+}
+.item {
+    /* background: beige; */
+    /* border: 1px inset black; */
+    padding: 10px;
+    font-size: 30px;
+    font-style: italic;
+    line-height: 1;
+}
+/* .box1 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color:beige;
+    border: 1px solid black;
+    font-size: 30px;
+    font-style: italic;
+} */
