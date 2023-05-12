@@ -26,6 +26,16 @@ h1.bb{
     right: 15px;
     top: 88%;
 }
+h1.dd{
+    position: absolute;
+    left: 15px;
+    top: 88%;
+}
+h1.ee{
+    position: absolute;
+    left: 190px;
+    top: 88%;
+}
 h1:hover {
     background-color:aqua;
 }
